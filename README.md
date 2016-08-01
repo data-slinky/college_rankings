@@ -1,1 +1,1 @@
-# college_rankings
+# College Rankings

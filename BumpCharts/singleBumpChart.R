@@ -6,7 +6,7 @@ require(jsonlite)
 require(RColorBrewer)
 require(grid)
 
-timesData <- read.csv("data/timesData.csv", sep=",") # Load in the data
+timesData <- read.csv("timesData.csv", sep=",") # Load in the data
 
 # Convert from factors to numeric
 timesData$world_rank <- as.numeric(as.character(timesData$world_rank))

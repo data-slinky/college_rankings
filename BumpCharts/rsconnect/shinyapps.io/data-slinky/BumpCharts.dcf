@@ -1,0 +1,9 @@
+name: BumpCharts
+account: data-slinky
+server: shinyapps.io
+appId: 117890
+bundleId: 521274
+url: https://data-slinky.shinyapps.io/BumpCharts/
+when: 1470085684.1511
+asMultiple: FALSE
+asStatic: FALSE
