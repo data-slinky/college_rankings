@@ -4,9 +4,11 @@ library("ggrepel")
 library("scales")
 library("RColorBrewer")
 
-pal1 = c("#c57c3c", "#e392c2", "#a5e7a8", "#bea3ea", "#d7e298", "#81a4e3", "#a6b16a", "#a7baf2", "#e4c587", "#5ab6e6",
-         "#d6a16d", "#62d9f3", "#eb9189", "#3ec1c8", "#e1a6b6", "#7fe3c5", "#e5b4e2", "#8bba83", "#cd5136", "#84bb9c",
-         "#e1ceeb", "#72b7b0", "#cd9e8c", "#93e7e2", "#ecc0b1", "#7bb1c6", "#d8e8c5", "#acbadd", "#b2b593", "#acd8eb")
+pal1 = c("#8dc0b0", "#d5a6db", "#8ecc9c", "#b9b5f3", "#caedb3", "#74aff3", "#ede1a3",
+         "#5ecae7", "#f4b189", "#71e2eb", "#eba396", "#67ccc2", "#eda4c1", "#94e9ce",
+         "#e5c5f7", "#b1bf81", "#a9c6f0", "#d3be88", "#90cbf0", "#e9bf98", "#94d9df",
+         "#efb4aa", "#bdf0dd", "#e8bad0", "#a5d1b3", "#b1b2da", "#b2c69a", "#cfa191",
+         "#e3e5bc", "#cebe9b")
 
 shinyServer(
   function(input, output) {
