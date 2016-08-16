@@ -1,4 +1,4 @@
-setwd("college_rankings/Regression")
+setwd("college_rankings/Clustering")
 
 library(cluster)
 library(RColorBrewer)
@@ -34,7 +34,7 @@ heatmap.2(as.matrix(timesData[variables]),
           main="Heatmap of Times Top 50 Colleges",
           trace="none", srtCol=45,
           cexRow=0.9, cexCol=0.9, margins=c(5,12))
-legend(x=0.2353449, y=0.9009054, 
+legend(x=-1.503953, y=3.162417, 
           legend = c("Asia", "North America", "Europe", "Australia"),
           col = c("#626262", "#ca0020", "#0571b0","#d8d8d8"),
           horiz = TRUE,
@@ -48,6 +48,8 @@ set.seed(1)
 ##########################################################################################
 # Determine the optimal number of clusters
 ##########################################################################################
+
+par(mfrow=c(1,2))
 
 # Elbow Method
 wss <- sapply(1:12, function(k){kmeans(timesData[variables], k, nstart=10 )$tot.withinss})
